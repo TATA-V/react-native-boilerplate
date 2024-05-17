@@ -5,8 +5,11 @@
     "moduleResolution": "node",
     "baseUrl": "./src",
     "paths": {
-      "components/*": ["components/*"],
-      "screens/*": ["screens/*"],
+      "@/*": ["./*"],
+      "@components/*": ["components/*"],
+      "@screens/*": ["screens/*"],
+      "@assets/*": ["assets/*"],
+      "@style/*": ["style/*"],
     },
-  }
+  },
 }
